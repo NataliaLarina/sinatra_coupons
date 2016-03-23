@@ -1,0 +1,9 @@
+<h1>All Your Coupons</h1>
+
+<% @all.each do |item| %>
+
+    <li>
+    <%= item.title %> has a rank of <%= item.description %>
+    </li>
+
+<% end %>
